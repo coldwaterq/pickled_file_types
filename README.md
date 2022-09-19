@@ -24,7 +24,7 @@ Not entirely sure what `joblib.dump` does differently from pickle, but the end r
 ### Pickle (pkl, pickle, bin, data, dat)
 A pickle's a pickle
 
-Some libraries tend to have content daved as pickles, bellow is a list of ML libraries which this applies to according to stack overflow results. (this will likely never be a complete list, but add an issue for any you find and I can add it.)
+Some libraries tend to have content saved using pickle.save directly, bellow is a list of ML libraries which this applies to according to stack overflow results. 
 - NLTK
 
 ### Riva and NeMo (riva, nemo)
