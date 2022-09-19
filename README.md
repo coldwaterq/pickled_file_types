@@ -21,8 +21,11 @@ In my limitted tests, `save` appends some numpy meta data to the beginning of th
 ### Sklearn (joblib)
 Not entirely sure what `joblib.dump` does differently from pickle, but the end result is a pickle.
 
-### Pickle (pkl, bin, data)
+### Pickle (pkl, pickle, bin, data, dat)
 A pickle's a pickle
+
+Some libraries tend to have content daved as pickles, bellow is a list of ML libraries which this applies to according to stack overflow results. (this will likely never be a complete list, but add an issue for any you find and I can add it.)
+- NLTK
 
 ### Riva and NeMo (riva, nemo)
 Archive that contains other formats and configs. The contained formats include some that themselves are pickles or contain pickles.
